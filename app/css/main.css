@@ -46,20 +46,12 @@ ul {
   margin: 0; }
 
 @font-face {
-  font-family: Oranienbaum;
-  src: url(../fonts/oranienbaum.ttf); }
+  font-family: PTSerif;
+  src: url(../fonts/pt-serif.ttf); }
 
 @font-face {
-  font-family: UniSansHeavyCAPS;
-  src: url(../fonts/unicaps.otf); }
-
-@font-face {
-  font-family: PTSans;
-  src: url(../fonts/pt-sans.ttf); }
-
-@font-face {
-  font-family: "Myriad Pro";
-  src: url(../fonts/MyriadProRegular.ttf); }
+  font-family: PTSerifB;
+  src: url(../fonts/pt-serif-b.ttf); }
 
 .toggle-mnu {
   display: block;
@@ -127,6 +119,71 @@ ul {
   margin: auto;
   background: url("../img/bg_main.jpg") no-repeat 0 0;
   overflow: hidden; }
+
+.nopadding {
+  padding: 0 !important; }
+
+.w_1057 {
+  width: 1057px;
+  margin: auto; }
+
+.w_1024 {
+  width: 1024px;
+  margin: auto; }
+
+.col-mnu {
+  min-height: 60px;
+  background-color: #FFF;
+  padding-top: 20px !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: visible; }
+  .col-mnu ul {
+    display: block;
+    text-align: center; }
+  .col-mnu li {
+    display: inline-block;
+    margin: 0 8px; }
+  .col-mnu a {
+    color: black;
+    font-family: PTSerif;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold; }
+
+.logo {
+  margin-left: 40px;
+  float: left; }
+
+.uch-172 {
+  height: 455px;
+  margin: auto;
+  width: 100%;
+  float: left;
+  background: url("../img/uchastok.png") no-repeat center top -23px; }
+
+.go-look {
+  display: block;
+  background: url("../img/go-look.png") no-repeat 0 0;
+  width: 235px;
+  height: 45px; }
+
+.top-contacts {
+  padding-top: 7px;
+  float: right;
+  color: white;
+  font-family: PTSerifB;
+  font-weight: bold;
+  font-size: 17px;
+  width: 280px; }
+  .top-contacts p {
+    margin-bottom: 10px;
+    text-shadow: 0 0 29.4px rgba(255, 255, 255, 0.34); }
+  .top-contacts span {
+    text-shadow: 0 0 29.4px rgba(255, 255, 255, 0.34);
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
