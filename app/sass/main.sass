@@ -220,13 +220,84 @@ ul
 		font-size: 0
 		padding: 0
 
+.foto-poselka
+	.text-mod
+		padding: 25px
+		background-color: #E5E7E8 
+		ul
+			display: block
+			text-align: center
+			li
+				display: inline-block
+				margin-right: 12px
+				&:last-child
+					margin-right: 0
+				
+.review
+	width: 461px
+	min-height: 254px
+	border-radius: 5px
+	background-color: #E5E7E8 	
+	padding: 25px 10px
+	box-sizing: border-box
+	position: relative
+	float: left
+	margin-bottom: 65px
+	&:nth-child(2n-1)
+		margin-right: 55px
+	&:after
+		display: block
+		content: "" 
+		position: absolute
+		bottom: -36px
+		right: 80px
+		width: 88px
+		height: 37px
+		background: url("../img/review-corner.png") no-repeat 0 0
 
+.review-text
+	font-family: PTSerifI
+	color: #000 
+	font-size: 17px
+	word-spacing: 5px 
+	margin-bottom: 20px
+	padding-bottom: 70px
+	box-sizing: border-box
+	p
+		margin-bottom: 15px
 
+.reviewer
+	font-family: PTSerifB
+	font-size: 20px	
+	position: absolute
+	bottom: 20px
+	left: 20px
+	padding-right: 20px
+	img
+		float: left
+		margin-right: 20px
+	span
+		margin-top: 20px
+		display: inline-block
 
-
-
-
-
+.w_860
+	width: 860px
+	margin: auto
+	text-align: center
+	
+.view-all-reviews
+	display: inline-block
+	margin: auto
+	height: 52px
+	border: 2px solid #e5e7e8
+	border-radius: 10px
+	color: black
+	font-family: PTSerif
+	font-size: 28px
+	font-weight: 400
+	line-height: 1.5
+	text-decoration: underline
+	padding: 0 10px
 
 
 @import _media
