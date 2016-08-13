@@ -121,6 +121,13 @@ ul {
   opacity: 1;
   visibility: visible; }
 
+.wrapper {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  background: url("../img/bg_main.jpg") no-repeat 0 0;
+  overflow: hidden; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
