@@ -638,7 +638,82 @@ ul {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /**/ }
+  .w_1024 {
+    width: 100% !important; }
+  .w_1057 {
+    width: 100% !important; }
+  .uch-172 {
+    background: none; }
+  .col-logo-contacts {
+    width: 100%;
+    text-align: center; }
+  .logo {
+    margin: auto;
+    float: none; }
+  .col-top-contacts {
+    width: 100%;
+    text-align: center; }
+  .top-contacts {
+    text-align: center;
+    width: 100%; }
+  .go-look {
+    float: none;
+    margin: auto; }
+  .header_mod {
+    background-position: left -50px top 0;
+    background-size: auto auto;
+    line-height: 2; }
+  .plan table td {
+    font-size: 27px; }
+  .w_1024.down-doc {
+    width: 100% !important;
+    line-height: 1;
+    padding-top: 15px; }
+    .w_1024.down-doc p {
+      display: table;
+      font-size: 18px; }
+    .w_1024.down-doc span {
+      display: table-cell;
+      vertical-align: middle; }
+    .w_1024.down-doc a {
+      margin: 0;
+      margin-left: 50px;
+      margin-right: 10px; }
+  .poselok .text-mod {
+    padding-top: 35px;
+    background-image: none; }
+  .foto-poselka .text-mod ul li {
+    width: -webkit-calc(50% - 15px);
+    width: calc(50% - 15px);
+    margin-bottom: 7.5px; }
+    .foto-poselka .text-mod ul li:nth-child(2n) {
+      margin-right: 0; }
+  .foto-poselka .text-mod {
+    padding-top: 40px; }
+  .review {
+    width: 100%; }
+  .contacts-adress {
+    width: 100%;
+    font-size: 13px; }
+  .price {
+    font-size: 51px;
+    line-height: 1.8; }
+  .quest-price td {
+    display: block;
+    width: 50%;
+    margin-bottom: 20px; }
+  .quest-price td:nth-child(5) {
+    width: 50%; }
+  .quest-price td:nth-child(6) {
+    width: 50%; }
+  .quest-price .text-mod {
+    padding-top: 45px; }
+  .go-look2 {
+    width: 235px;
+    height: 45px;
+    background-size: 100%; }
+  .wrapper {
+    padding-bottom: 0; } }
 
 @media only screen and (max-width: 640px) {
   /**/ }
@@ -647,11 +722,19 @@ ul {
   /**/ }
 
 @media only screen and (max-width: 570px) {
-  /**/ }
+  .view-all-reviews {
+    font-size: 20px;
+    line-height: 2.1; }
+  .contacts-text {
+    font-size: 20px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /**/ }
+  .review-text {
+    font-size: 13px;
+    padding-bottom: 100px; }
+  .foto-poselka .text-mod ul li {
+    width: 100%; } }
 
 @media only screen and (max-width: 360px) {
   /**/ }
