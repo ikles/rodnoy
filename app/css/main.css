@@ -525,12 +525,16 @@ ul {
   .plan .w_1024.text-mod img {
     width: 82%; }
   .dotted p {
-    background-size: 100%;
+    background: none !important;
     width: -webkit-calc(100% - 10px);
     width: calc(100% - 10px);
     margin: auto;
     font-size: 25px;
-    min-height: 193px; }
+    min-height: auto;
+    border: 2px dashed #ccc;
+    height: auto;
+    -webkit-border-radius: 0;
+            border-radius: 0; }
   .quest-price td {
     width: 15%; }
   .quest-price td:nth-child(5) {
@@ -596,7 +600,41 @@ ul {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .uch-172 {
+    background-size: 345px;
+    background-position: top -14px center;
+    height: 403px; }
+  .header_mod {
+    font-size: 25px; }
+  .w_1024.text-mod {
+    margin-top: -25px !important; }
+  .w_1024.down-doc {
+    font-size: 21px;
+    line-height: 5.2; }
+  .tur .text-mod {
+    height: auto; }
+  .reviewer span {
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-top: 25px; }
+  .w_860 {
+    width: 100%; }
+  .reviews-cantainer {
+    height: 345px;
+    margin-bottom: 10px; }
+  .reviews-cantainer-full {
+    height: auto; }
+  .reviewer img {
+    margin-right: 15px; }
+  .price {
+    font-size: 69px; }
+  .quest-price td {
+    font-size: 50px; }
+  .quest-price td span {
+    font-size: 16px; }
+  .quest-price .text-mod {
+    padding-top: 27px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
