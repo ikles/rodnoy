@@ -73,7 +73,7 @@ ul {
   display: block;
   width: 28px;
   height: 28px;
-  margin: 40px 15px; }
+  margin: 30px 0 0 15px; }
   .toggle-mnu:focus {
     outline: none; }
 
@@ -96,7 +96,7 @@ ul {
 .toggle-mnu span:before {
   width: 100%;
   height: 2px;
-  background-color: #000;
+  background-color: #fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   -webkit-backface-visibility: hidden;
@@ -350,7 +350,8 @@ ul {
     margin-right: 20px; }
   .reviewer span {
     margin-top: 20px;
-    display: inline-block; }
+    display: inline-block;
+    font-size: 20px; }
 
 .w_860 {
   width: 860px;
@@ -496,6 +497,71 @@ ul {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .wrapper {
+    background-position: top center;
+    padding-bottom: 185px; }
+  .wrap-mnu {
+    background-color: #000;
+    width: 100%; }
+  .col-mnu {
+    padding-top: 0 !important;
+    background-color: #000;
+    margin: auto;
+    width: -webkit-calc(100% - 40px) !important;
+    width: calc(100% - 40px) !important;
+    margin: auto; }
+  .w_1024.down-doc {
+    font-size: 32px;
+    width: -webkit-calc(100% - 50px) !important;
+    width: calc(100% - 50px) !important; }
+  .header_mod {
+    background-size: 100%;
+    max-width: 100%; }
+  .w_1024.text-mod {
+    margin-top: -10px !important; }
+    .w_1024.text-mod > img {
+      max-width: 100%;
+      width: 100%; }
+  .plan .w_1024.text-mod img {
+    width: 82%; }
+  .dotted p {
+    background-size: 100%;
+    width: -webkit-calc(100% - 10px);
+    width: calc(100% - 10px);
+    margin: auto;
+    font-size: 25px;
+    min-height: 193px; }
+  .quest-price td {
+    width: 15%; }
+  .quest-price td:nth-child(5) {
+    width: 18%; }
+  .quest-price td:nth-child(6) {
+    width: 18%; }
+  .reviewer span {
+    font-size: 18px; }
+  .foto-poselka .text-mod ul li {
+    width: -webkit-calc(25% - 15px);
+    width: calc(25% - 15px); }
+  .review {
+    width: -webkit-calc(50% - 28px);
+    width: calc(50% - 28px); }
+  .poselok .text-mod {
+    background-position: top -30px center;
+    background-size: 100%; }
+  .w_1024.text-mod li img {
+    width: 100%; }
+  .w_1057 {
+    width: -webkit-calc(100% - 10px) !important;
+    width: calc(100% - 10px) !important; }
+  .w_1024 {
+    width: -webkit-calc(100% - 40px) !important;
+    width: calc(100% - 40px) !important; }
+  .go-look {
+    float: right; }
+  .logo {
+    margin-left: 0; }
+  .top-contacts {
+    text-align: right; }
   .main-mnu {
     display: none;
     float: right;
