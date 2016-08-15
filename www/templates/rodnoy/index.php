@@ -30,19 +30,6 @@ $app = JFactory::getApplication();
 						<a href="#" class="toggle-mnu"><span></span></a>
 					</div>
 					<jdoc:include type="modules" name="col-mnu" style="mystyle" />
-					<!--div class="top_mnu main-mnu">
-						<ul>
-							<li class="active"><a href="#">Информация о доме</a></li>
-							<li><a href="#">Фото дома</a></li>
-							<li><a href="#">Планировка</a></li>
-							<li><a href="#">Посёлок «Родной»</a></li>
-							<li><a href="#">Тур</a></li>
-							<li><a href="#">Фото посёлка</a></li>
-							<li><a href="#">Отзывы</a></li>
-							<li><a href="#">Карта</a></li>
-							<li><a href="#">Контакты</a></li> 															
-						</ul>
-					</div-->
 				</div>
 			</div>
 			<div class="w_1024 uch-172">			
@@ -50,15 +37,11 @@ $app = JFactory::getApplication();
 					<a href="http://rodnoyposelok.ru/" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo.png" alt=""></a>
 				</div>
 				<div class="col-top-contacts">
-					<div class="top-contacts">
-						<p>Контактная информация</p>
-						<p><span>+7-912-625-60-46</span>
-							<a href="#" class="go-look"></a>
-						</p>				
-					</div><!--top-contacts-->
+					<jdoc:include type="modules" name="top-contacts" style="mystyle" />
 				</div><!--col-top-contacts-->
 			</div><!--uch-172-->
-			<div class="w_1057 good-day">
+			<jdoc:include type="modules" name="good-day" style="mystyle" />
+			<!--div class="w_1057 good-day" id="info-house">
 				<div class="header_mod">Добрый день!</div>
 				<div class="w_1024 text-mod">
 					<p>
@@ -67,14 +50,14 @@ $app = JFactory::getApplication();
 						Жизнь в посёлке «Родной» размерена и спокойна. Здесь можно начать всё с начала. 
 					</p>
 				</div>		
-			</div>
-			<div class="w_1057 slider">
+			</div--><!--good-day-->
+			<div class="w_1057 slider" id="photo-house">
 				<div class="header_mod">Фотографии</div>
 				<div class="w_1024 text-mod">
 					<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/slider.jpg" alt="">
 				</div>		
 			</div>
-			<div class="w_1057 plan">
+			<div class="w_1057 plan" id="plan-house">
 				<div class="header_mod">План дома</div>
 				<div class="w_1024 text-mod">
 					<table>
@@ -92,19 +75,19 @@ $app = JFactory::getApplication();
 			<div class="w_1024 down-doc">
 				<p><span>Скачайте полную техническую документацию:</span> <a href="#" class="pdf-down"></a></p>
 			</div><!--down-doc-->
-			<div class="w_1057 poselok">
+			<div class="w_1057 poselok" id="posel-house">
 				<div class="header_mod">Посёлок</div>
 				<div class="w_1024 text-mod">
 					<p>Загородный поселок Родной расположен в одном из самых экологически чистых районов Свердловской области . Он со всех сторон окружен лесом смешанных пород. Настоящий, живой лес начинается у Вашего дома. Рядом есть природный водоем – небольшая река Утка, а в самом поселке планируется строительство бассейна с благоустроенной зоной отдыха. В нашем поселке работает круглосуточная охрана, проложены дороги, проведено электричество. Поселок разрабатывается не так давно. На участках первой очереди идет активное строительство.В продажу предлагаются земельные участки от 15 соток и строительство домов по договорам подряда. Кроме того, мы строим все необходимые дачные сооружения: бани, беседки, веранды, гаражи. Проекты домов могут быть предложены покупателями либо выбраны из тех, что разработанных специально для нашего поселка. Помогаем с ландшафтным дизайном и обустройством территории.</p>
 				</div>		
 			</div><!--poselok-->
-			<div class="w_1057 tur">
+			<div class="w_1057 tur" id="tur">
 				<div class="header_mod">Тур по посёлку</div>
 				<div class="w_1024 text-mod">
 					<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/tur.jpg" alt="">
 				</div>		
 			</div><!--tur-->
-			<div class="w_1057 foto-poselka">
+			<div class="w_1057 foto-poselka" id="photo-posel">
 				<div class="header_mod">Фото посёлка</div>
 				<div class="w_1024 text-mod">
 					<ul>
@@ -115,7 +98,7 @@ $app = JFactory::getApplication();
 					</ul>
 				</div>		
 			</div><!--foto-poselka-->
-			<div class="w_1057 reviews">
+			<div class="w_1057 reviews" id="reviews">
 				<div class="header_mod">Отзывы</div>
 				<div class="w_1024 text-mod">
 					<a name="rtuy" id="rtuy"></a>
@@ -150,13 +133,13 @@ $app = JFactory::getApplication();
 					</div>
 				</div><!--text-mod-->				
 			</div><!--reviews-->
-			<div class="w_1057 karta-poselka">
+			<div class="w_1057 karta-poselka" id="cart">
 				<div class="header_mod">Карта посёлка</div>
 				<div class="w_1024 text-mod">
 					<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/carta-poselka.jpg" alt="">
 				</div>		
 			</div><!--karta-poselka-->
-			<div class="w_1057 kontakty">
+			<div class="w_1057 kontakty" id="contacts">
 				<div class="header_mod">Контакты</div>
 				<div class="w_1024 text-mod">
 					<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/contacts.jpg" alt="">

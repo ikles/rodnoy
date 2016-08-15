@@ -21,12 +21,14 @@ function modChrome_mystyle($module, &$params, &$attribs)
 	$headerClass    = ($headerClass) ? ' class="' . htmlspecialchars($headerClass) . '"' : '';
 
 	if (!empty ($module->content)) : ?>
-		<<?php echo $moduleTag; ?> class="moduletable<?php echo htmlspecialchars($params->get('moduleclass_sfx')) . $moduleClass; ?>">
+	
+		<<?php echo $moduleTag; ?> class="<?php echo htmlspecialchars($params->get('moduleclass_sfx')) . $moduleClass; ?>">
 			<?php if ((bool) $module->showtitle) : ?>
 				<<?php echo $headerTag . $headerClass . '>' . $module->title; ?></<?php echo $headerTag; ?>>
 			<?php endif; ?>
 			<?php echo $module->content; ?>
 		</<?php echo $moduleTag; ?>>
+		
 	<?php endif;
 }
 

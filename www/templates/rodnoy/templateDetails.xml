@@ -23,5 +23,7 @@
 	</files>
 	<positions>
 		<position>col-mnu</position>
+		<position>top-contacts</position>
+		<position>good-day</position>
 	</positions>
 </extension>
