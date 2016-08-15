@@ -133,10 +133,10 @@ ul {
   padding: 0 !important; }
 
 .w_1057 {
-  width: 1057px;
+  width: 1047px;
   margin: auto; }
 
-.w_1024 {
+.w_1024, .text-mod, .rev_slider_wrapper {
   width: 1024px !important;
   margin: auto !important; }
 
@@ -206,10 +206,10 @@ ul {
 .good-day {
   overflow: hidden; }
 
-.header_mod, h6 {
+.header_mod, h3 {
   background: url("../img/podlog.png") no-repeat 0 0;
   width: 100%;
-  max-width: 1057px;
+  max-width: 1046px;
   height: 69px;
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.75);
   color: white;
@@ -221,7 +221,7 @@ ul {
   position: relative;
   z-index: 10; }
 
-.text-mod {
+.text-mod, .rev_slider_wrapper {
   background-color: #fff;
   overflow: hidden;
   color: black;
@@ -234,15 +234,15 @@ ul {
   margin-top: -8px !important; }
 
 .top-contacts .text-mod {
-  font-size: 17px;
-  width: auto;
-  height: auto;
+  font-size: 17px !important;
+  width: auto !important;
+  height: auto !important;
   margin: 0 !important;
-  background: none; 
-  padding: 0;
-  color: #FFF;   
-  font-family: PTSerifB;
-  line-height: 1;
+  background: none !important; 
+  padding: 0 !important;
+  color: #FFF !important;   
+  font-family: PTSerifB !important;
+  line-height: 1 !important;
 }
 
 .slider .text-mod {
@@ -506,6 +506,29 @@ ul {
   margin: auto;
   margin-top: 46px; }
 
+.down-doc .text-mod {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+    background: none !important;
+    font-size: 34px !important;
+    line-height: 3.2;
+}
+
+.tp-rightarrow.default {
+  background-image: url("../img/arrow-r.png") !important;
+  background-position: 0 0;
+  width: 112px;
+  height: 27px;
+}
+
+.tp-leftarrow.default {
+  background-image: url("../img/arrow-l.png") !important;
+  background-position: 0 0;
+  width: 112px;
+  height: 27px;
+}
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -526,7 +549,7 @@ ul {
     font-size: 32px;
     width: -webkit-calc(100% - 50px) !important;
     width: calc(100% - 50px) !important; }
-  .header_mod, h6 {
+  .header_mod, h3 {
     background-size: 100%;
     max-width: 100%; }
   .w_1024.text-mod {
@@ -569,7 +592,7 @@ ul {
   .w_1057 {
     width: -webkit-calc(100% - 10px) !important;
     width: calc(100% - 10px) !important; }
-  .w_1024 {
+  .w_1024, .text-mod {
     width: -webkit-calc(100% - 40px) !important;
     width: calc(100% - 40px) !important; }
   .go-look {
@@ -612,11 +635,15 @@ ul {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .w_1057.tur {
+    display: none !important;
+  }
+
   .uch-172 {
     background-size: 345px;
     background-position: top -14px center;
     height: 403px; }
-  .header_mod, h6 {
+  .header_mod, h3 {
     font-size: 25px; }
   .w_1024.text-mod {
     margin-top: -25px !important; }
@@ -650,7 +677,7 @@ ul {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .w_1024 {
+  .w_1024, .text-mod {
     width: 100% !important; }
   .w_1057 {
     width: 100% !important; }
@@ -671,7 +698,7 @@ ul {
   .go-look {
     float: none;
     margin: auto; }
-  .header_mod, h6 {
+  .header_mod, h3 {
     background-position: left -50px top 0;
     background-size: auto auto;
     line-height: 2; }

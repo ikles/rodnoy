@@ -25,5 +25,10 @@
 		<position>col-mnu</position>
 		<position>top-contacts</position>
 		<position>good-day</position>
+		<position>slider</position>
+		<position>plan</position>
+		<position>down-doc</position>
+		<position>poselok</position>
+		<position>tur</position>
 	</positions>
 </extension>

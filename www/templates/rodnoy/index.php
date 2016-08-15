@@ -19,6 +19,7 @@ $app = JFactory::getApplication();
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<script src="<?php echo $this->baseurl ?>/modules/mod_tur/swfobject/swfkrpano.js"></script>
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/common.js"></script>
 </head>
 <body>
@@ -40,53 +41,16 @@ $app = JFactory::getApplication();
 					<jdoc:include type="modules" name="top-contacts" style="mystyle" />
 				</div><!--col-top-contacts-->
 			</div><!--uch-172-->
-			<jdoc:include type="modules" name="good-day" style="mystyle" />
-			<!--div class="w_1057 good-day" id="info-house">
-				<div class="header_mod">Добрый день!</div>
-				<div class="w_1024 text-mod">
-					<p>
-						Мы построили новый домик в загородном посёлке «Родной» и представляем его Вашему вниманию! Дом блочно-кирпичный, тёплый и основательный из оцилиндрованного бревна. Дом просторный, двухэтажный, более 130 м2. Гараж само собой.  На первом этаже просторный холл, столовая зона и гостинная (переход в гараж обязательно и пара технических помещений). На втором три спальни и просторная комната отдыха. Всё как у людей: 3 ванных комнаты, четыре гардероба.  В общем дом получился отличный как для семьянина, так и для ищущего покоя одиночки. Вокруг дома лес, прекрасный вид. Про пение птиц, чистый воздух и говорить не будем, и так всё понятно! 
-						Свой дом, это отличная возможность начать независимую и здоровую жизнь в дали суеты и городской пыли. 
-						Жизнь в посёлке «Родной» размерена и спокойна. Здесь можно начать всё с начала. 
-					</p>
-				</div>		
-			</div--><!--good-day-->
-			<div class="w_1057 slider" id="photo-house">
-				<div class="header_mod">Фотографии</div>
-				<div class="w_1024 text-mod">
-					<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/slider.jpg" alt="">
-				</div>		
-			</div>
-			<div class="w_1057 plan" id="plan-house">
-				<div class="header_mod">План дома</div>
-				<div class="w_1024 text-mod">
-					<table>
-						<tr>
-							<td><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/plan1.jpg" alt=""></td>
-							<td><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/plan2.jpg" alt=""></td>
-						</tr>
-						<tr>
-							<td>Первый этаж</td>
-							<td>Второй этаж</td>
-						</tr>
-					</table>
-				</div>		
-			</div><!--plan-->
-			<div class="w_1024 down-doc">
-				<p><span>Скачайте полную техническую документацию:</span> <a href="#" class="pdf-down"></a></p>
-			</div><!--down-doc-->
-			<div class="w_1057 poselok" id="posel-house">
-				<div class="header_mod">Посёлок</div>
-				<div class="w_1024 text-mod">
-					<p>Загородный поселок Родной расположен в одном из самых экологически чистых районов Свердловской области . Он со всех сторон окружен лесом смешанных пород. Настоящий, живой лес начинается у Вашего дома. Рядом есть природный водоем – небольшая река Утка, а в самом поселке планируется строительство бассейна с благоустроенной зоной отдыха. В нашем поселке работает круглосуточная охрана, проложены дороги, проведено электричество. Поселок разрабатывается не так давно. На участках первой очереди идет активное строительство.В продажу предлагаются земельные участки от 15 соток и строительство домов по договорам подряда. Кроме того, мы строим все необходимые дачные сооружения: бани, беседки, веранды, гаражи. Проекты домов могут быть предложены покупателями либо выбраны из тех, что разработанных специально для нашего поселка. Помогаем с ландшафтным дизайном и обустройством территории.</p>
-				</div>		
-			</div><!--poselok-->
-			<div class="w_1057 tur" id="tur">
-				<div class="header_mod">Тур по посёлку</div>
-				<div class="w_1024 text-mod">
-					<img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/tur.jpg" alt="">
-				</div>		
-			</div><!--tur-->
+			<a href="" id="info-house"></a>
+			<jdoc:include type="modules" name="good-day" style="mystyle" />			
+			<a id="photo-house"></a>
+			<jdoc:include type="modules" name="slider" style="mystyle" />			
+			<a id="plan-house"></a>
+			<jdoc:include type="modules" name="plan" style="mystyle" />			
+			<jdoc:include type="modules" name="down-doc" style="mystyle" />
+			<a id="posel-house"></a>
+			<jdoc:include type="modules" name="poselok" style="mystyle" />						
+			<jdoc:include type="modules" name="tur" style="mystyle" />									
 			<div class="w_1057 foto-poselka" id="photo-posel">
 				<div class="header_mod">Фото посёлка</div>
 				<div class="w_1024 text-mod">
