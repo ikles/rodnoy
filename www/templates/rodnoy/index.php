@@ -51,14 +51,14 @@ $app = JFactory::getApplication();
 			<a id="posel-house"></a>
 			<jdoc:include type="modules" name="poselok" style="mystyle" />	
 			<a id="tur"></a>					
-			<jdoc:include type="modules" name="tur" style="mystyle" />									
+			<jdoc:include type="modules" name="tur" style="mystyle" />												
 			<a id="photo-posel"></a>			
+			<jdoc:include type="modules" name="foto-poselka" style="mystyle" />									
 			<div class="w_1057 foto-poselka">
-				<div class="header_mod">Фото посёлка</div>
-				<div class="w_1024 text-mod">
-					<jdoc:include type="component" style="xhtml" />
-				</div>		
-			</div><!--foto-poselka-->
+			<div class="w_1024 text-mod">
+				<jdoc:include type="component" style="xhtml" />
+			</div>		
+			</div>
 			<a id="reviews"></a>
 			<jdoc:include type="modules" name="reviews" style="mystyle" />									
 			<div class="reviews-wrap w_1024 text-mod">
@@ -72,13 +72,10 @@ $app = JFactory::getApplication();
 			<jdoc:include type="modules" name="kontakty" style="mystyle" />									
 			<jdoc:include type="modules" name="quest-price" style="mystyle" />									
 			<jdoc:include type="modules" name="price" style="mystyle" />											
-			<jdoc:include type="modules" name="dotted" style="mystyle" />											
-			
-			<div class="w_1024 text-mod dotted">
-				<p>При покупке дома, мы можем предложить 50 % скидки на соседние участки земли, для расширения ваших владений. Также если вы становитесь жителем нашего посёлка, вы получаете много дополнительных приемуществ, о которых я расскажу Вам при встрече! 				</p>
-				<a href="#" class="go-look2"></a>
-			</div><!--dotted-->		
+			<jdoc:include type="modules" name="dotted" style="mystyle" />															
+			<jdoc:include type="modules" name="form" style="mystyle" />															
 		</div><!--wrapper-->
+		<div class="overlay"></div>
 	</body>
 	</html>
 

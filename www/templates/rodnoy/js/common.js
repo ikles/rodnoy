@@ -25,4 +25,27 @@ $(function() {
 		}
 	});	
 
+	var he = $('body').outerHeight(true)+365;
+
+	$('.overlay').css('height',he);
+
+	if ($("div").is(".reviews-cantainer")) {
+		
+	}
+	else {
+		$(".reviews-wrap").remove();
+		$('.wrapper').css('paddingBottom','85px');
+	}
+
+	$('.go-look, .go-look2').click(function (event) {
+		event.preventDefault();
+		$('.overlay, .vsp-form').addClass('d-block');
+
+	});
+
+	$('.overlay').click(function () {
+		$(this).removeClass('d-block');
+		$('.vsp-form').removeClass('d-block');
+	});
+
 });
