@@ -233,6 +233,16 @@ ul {
           box-sizing: border-box;
   margin-top: -8px !important; }
 
+.reviews .text-mod {
+  padding-bottom: 0 !important;
+}
+
+
+
+.reviews-wrap.w_1024.text-mod {
+  padding-top: 0 !important;
+}
+
 .top-contacts .text-mod {
   font-size: 17px !important;
   width: auto !important;
@@ -299,7 +309,7 @@ ul {
 .tur .text-mod {
   font-size: 0;
   padding: 0;
-  height: 545px;
+  height: 585px;
   overflow: hidden; }
 
 .foto-poselka .text-mod {
@@ -313,6 +323,38 @@ ul {
       margin-right: 12px; }
       .foto-poselka .text-mod ul li:last-child {
         margin-right: 0; }
+
+.sigFreeLink.fancybox-button {
+    width: 228px !important;
+  height: 152px !important;  
+}
+
+
+.foto-poselka .text-mod ul li {
+  width: 228px !important;
+  height: 152px !important;  
+  overflow: hidden;
+  margin-right: 20px !important;
+}
+
+.foto-poselka .text-mod ul li:nth-last-child(2)  {
+  margin: 0 !important;
+}
+
+
+
+img.sigFreeImg, img.sigFreeImg {
+  width: 100% !important;
+  height: auto !important;
+  -webkit-background-size: 100%;
+       -o-background-size: 100%;
+          background-size: 100%;
+  background-position: 0 0 !important;
+}
+
+.sigFreeClear {
+  display: none !important;
+}
 
 .review {
   width: 461px;
@@ -479,6 +521,20 @@ ul {
   .price span {
     font-family: ALSRubl;
     font-weight: 400; }
+
+.price .text-mod {
+  color: #9f9;
+  font-size: 85px;
+  font-family: PTSerifB;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.3;
+  height: 125px;
+  background-color: #00a54f;
+  padding-top: 0 !important;
+  -webkit-box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.75);
+          box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.75);
+}
 
 .dotted p {
   display: block;

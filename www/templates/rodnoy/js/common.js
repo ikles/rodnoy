@@ -23,9 +23,6 @@ $(function() {
 			$(".view-all-reviews").html('Скрыть');
 			$('.reviews-cantainer').css('height','auto');
 		}
-	});
-
-
-	
+	});	
 
 });

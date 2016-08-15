@@ -30,5 +30,12 @@
 		<position>down-doc</position>
 		<position>poselok</position>
 		<position>tur</position>
+		<position>foto-poselka</position>
+		<position>reviews</position>
+		<position>karta-poselka</position>
+		<position>kontakty</position>
+		<position>quest-price</position>
+		<position>price</position>
+		<position>dotted</position>
 	</positions>
 </extension>
